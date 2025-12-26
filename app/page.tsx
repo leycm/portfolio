@@ -2,9 +2,9 @@ import { Content, ContentTitle, Page, Section } from "@/components/content";
 import { Experience, ExperienceAndProjects, TimelineEnd, TimelineStart } from "@/components/experience";
 import { Sidebar, SidebarTitle, SidebarName, SidebarSubtitle, SidebarNavigation, SidebarNavLink } from "@/components/sidebar";
 import { SidebarNavItem } from "@/components/sidebar-client";
-import { getMyAge } from "@/lib/age";
+import { getMyAge, getYearsOfExperience } from "@/lib/age";
 import { Tech } from "@/components/tech";
-import {FaJava, FaPython, FaDocker, FaGitAlt, FaLinkedin, FaStackOverflow, FaGithub, FaDiscord, FaBluesky} from "react-icons/fa6";
+import {FaJava, FaPython, FaDocker, FaGitAlt, FaLinkedin, FaStackOverflow, FaGithub, FaDiscord} from "react-icons/fa";
 import { SiKotlin, SiGo, SiSpring, SiRedis } from "react-icons/si";
 import { tags } from "./tags";
 import { Email } from "@/components/icons";
@@ -13,6 +13,7 @@ import { AboutMe } from "@/components/about";
 
 import demo from "@/images/demo.png";
 import profile from "@/images/profile.png";
+import { FaBluesky } from "react-icons/fa6";
 
 export default function Portfolio() {
 	return (
@@ -104,46 +105,46 @@ export default function Portfolio() {
 						<Tech tech={{
 							name: "Java",
 							description: "OOP based language with strong type security.",
-							usage: "for large applications and robust backend systems",
-							familiarity: "Extensive experience with Java and its ecosystem",
+							usage: "for large applications and robust backend systems.",
+							familiarity: "extensive experience with Java and its ecosystem.",
 							color: "#5382A1",
 							icon: <FaJava />
 						}} />
 						<Tech tech={{
 							name: "Spring",
-							description: "OOP based language with strong type security.",
-							usage: "Developing RESTful APIs and microservices with Spring Boot and Spring Cloud",
-							familiarity: "Proficient in building scalable microservice architectures",
+							description: "Java framework for building enterprise-level applications.",
+							usage: "to develop backends and public api endpoints.",
+							familiarity: "interested in Spring Boot and its features.",
 							color: "#6DB33F",
 							icon: <SiSpring />
 						}} />
 						<Tech tech={{
 							name: "Kotlin",
-							description: "OOP based language with strong type security.",
-							usage: "Developing Android applications and backend services",
-							familiarity: "Comfortable with coroutines and modern Kotlin features",
+							description: "language designed to interoperate fully with Java and the JVM.",
+							usage: "to experiment with it features and build Android applications.",
+							familiarity: "comfortable with Kotlin syntax and standard library.",
 							color: "#7F52FF",
 							icon: <SiKotlin />
 						}} />
 						<Tech tech={{
 							name: "Go",
-							description: "OOP based language with strong type security.",
-							usage: "Building high-performance microservices and CLI applications",
-							familiarity: "Experience with goroutines and building REST APIs",
+							description: "modern compiled language known for its simplicity and efficiency.",
+							usage: "mostly to build command-line tools and small application.",
+							familiarity: "familiar with Go's syntax and times feature.",
 							color: "#00ADD8",
 							icon: <SiGo />
 						}} />
 						<Tech tech={{
 							name: "Python",
-							description: "OOP based language with strong type security.",
-							usage: "Automation scripts, data processing, and backend development",
-							familiarity: "Extensive experience with Python ecosystem and libraries",
+							description: "interpreted, high-level programming language known for its simplicity and versatility.",
+							usage: "Automation scripts, data processing", // TODO: improve
+							familiarity: "-",
 							color: "#3776AB",
 							icon: <FaPython />
 						}} />
 						<Tech tech={{
 							name: "Redis",
-							description: "OOP based language with strong type security.",
+							description: "in-memory data structure store, used as a database, cache, and message broker.",
 							usage: "Caching layer and real-time data processing",
 							familiarity: "Experience with Redis for caching and pub/sub",
 							color: "#DC382D",
@@ -151,17 +152,17 @@ export default function Portfolio() {
 						}} />
 						<Tech tech={{
 							name: "Docker",
-							description: "OOP based language with strong type security.",
-							usage: "Containerizing applications and setting up development environments",
-							familiarity: "Proficient with multi-stage builds and Docker Compose",
+							description: "platform for developing, shipping, and running applications in containers.",
+							usage: "-",
+							familiarity: "-",
 							color: "#2496ED",
 							icon: <FaDocker />
 						}} />
 						<Tech tech={{
 							name: "Git",
-							description: "OOP based language with strong type security.",
-							usage: "Version control and collaborative development workflows",
-							familiarity: "Proficient with Git workflows and CI/CD integration",
+							description: "distributed version control system for tracking changes in source code during software development.",
+							usage: "-",
+							familiarity: "-",
 							color: "#F05032",
 							icon: <FaGitAlt />
 						}} />

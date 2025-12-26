@@ -20,7 +20,7 @@ type AboutMeProps = {
 
 export function AboutMe({ name, description, socialLinks, image }: AboutMeProps) {
   return (
-    <div className="max-w-4xl mx-4 sm:ml-8 mb-8 sm:mb-16 mt-8 sm:mt-16 py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-5xl mx-4 sm:ml-8 mb-8 sm:mb-16 mt-8 sm:mt-16 py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-12">
         {/* Profile Picture - Hidden on mobile */}
         <div className="hidden md:flex flex-col gap-8">

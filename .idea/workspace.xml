@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor icon components to use react-icons library; update AboutMe and page components to utilize new icon imports">
+    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor AboutMe, Carousel, and Sidebar components for improved responsiveness and styling; enhance GitHub stats display for mobile and desktop views">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/carousel-client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/carousel-client.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/carousel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/content.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/github-stats.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/github-stats.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/tech.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/tech.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766761075303</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactor AboutMe, Carousel, and Sidebar components for improved responsiveness and styling; enhance GitHub stats display for mobile and desktop views">
+      <option name="closed" value="true" />
+      <created>1766765747569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766765747569</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +174,8 @@
     <MESSAGE value="Update workspace configuration to include project structure and Git settings" />
     <MESSAGE value="Enhance AboutMe component with profile image and social links; refactor age calculation functions and update GitHub stats integration" />
     <MESSAGE value="Refactor icon components to use react-icons library; update AboutMe and page components to utilize new icon imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor icon components to use react-icons library; update AboutMe and page components to utilize new icon imports" />
+    <MESSAGE value="Refactor AboutMe, Carousel, and Sidebar components for improved responsiveness and styling; enhance GitHub stats display for mobile and desktop views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor AboutMe, Carousel, and Sidebar components for improved responsiveness and styling; enhance GitHub stats display for mobile and desktop views" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
