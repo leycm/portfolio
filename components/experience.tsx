@@ -58,7 +58,7 @@ export function Experience({ title, content, time, state, tags, github, images, 
 
 				{/* Carousel */}
 				{images && images.length > 0 && (
-					<div className="mt-3 sm:mt-4">
+					<div className="mt-3 sm:mt-4 max-w-2xl">
 						<Carousel images={images} title={title} />
 					</div>
 				)}

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Update icons and dependencies; refactor TypeScript configuration for improved compatibility and performance">
+    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Update AboutMe component description and enhance tech usage terminology for clarity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/experience.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,7 @@
       <workItem from="1766658582486" duration="3640000" />
       <workItem from="1766693374751" duration="2972000" />
       <workItem from="1766750752607" duration="3973000" />
-      <workItem from="1767028834470" duration="3939000" />
+      <workItem from="1767028834470" duration="13166000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -170,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767030430672</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update AboutMe component description and enhance tech usage terminology for clarity">
+      <option name="closed" value="true" />
+      <created>1767032972779</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767032972779</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +204,8 @@
     <MESSAGE value="Refactor icon components to use react-icons library; update AboutMe and page components to utilize new icon imports" />
     <MESSAGE value="Refactor AboutMe, Carousel, and Sidebar components for improved responsiveness and styling; enhance GitHub stats display for mobile and desktop views" />
     <MESSAGE value="Update icons and dependencies; refactor TypeScript configuration for improved compatibility and performance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update icons and dependencies; refactor TypeScript configuration for improved compatibility and performance" />
+    <MESSAGE value="Update AboutMe component description and enhance tech usage terminology for clarity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update AboutMe component description and enhance tech usage terminology for clarity" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

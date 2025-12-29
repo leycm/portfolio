@@ -12,6 +12,14 @@ import Quote from "@/components/quote";
 import { AboutMe } from "@/components/about";
 
 import demo from "@/images/demo.png";
+import flux from "@/images/flux.png";
+import sedis from "@/images/sedis.png";
+import cactus0 from "@/images/cactus/cactus2.png";
+import cactus1 from "@/images/cactus/cactus3.png";
+import cactus2 from "@/images/cactus/cactus6.png";
+import cactus3 from "@/images/cactus/cactus7.png";
+import cactus4 from "@/images/cactus/cactus8.png";
+
 import profile from "@/images/profile.png";
 import { FaBluesky } from "react-icons/fa6";
 
@@ -173,48 +181,49 @@ export default function Portfolio() {
 					<ExperienceAndProjects>
 						<TimelineStart />
 						<Experience
-						title="Project 1"
-						content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-						time="Jan 2024 - Present"
-						state="In Progress"
-						tags={[tags.react, tags.typescript, tags.tailwindcss]}
-						github="#"
-						images={[demo, demo, demo, demo, demo, demo]}
-					/>
-					<Experience
-						title="Project 2"
-						content="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-						time="Mar 2024 - Jun 2024"
-						state="Completed"
-						tags={[tags.nextjs, tags.typescript, tags.postgresql]}
-						github="#"
-						images={[demo]}
-					/>
-					<Experience
-						title="Project 3"
-						content="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-						time="Feb 2024 - Apr 2024"
-						state="Completed"
-						tags={[tags.react, tags.javascript, tags.firebase]}
-						github="#"
-						images={[demo]}
-					/>
-					<Experience
-						title="Project 4"
-						content="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-						time="Dec 2023 - Jan 2024"
-						state="Completed"
-						tags={[tags.nextjs, tags.typescript, tags.tailwindcss]}
-						github="#"
-						images={[demo]}
-					/>
-					<Experience
-						title="Education"
-						content="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
-						time="2024 - 2028"
-						state="In Progress"
-						tags={[tags.cpp, tags.javascript]}
-					/>
+							title="Cactus Network - A Minecraft Server Network"
+							content="Cactus Network is a Minecraft server network that offers a variety of game modes and features for players to enjoy. With a focus on community and player engagement, Cactus Network provides a fun and immersive experience for Minecraft enthusiasts."
+							time="Apr 2025 - Present"
+							state="In Progress"
+							tags={[tags.nextjs, tags.typescript, tags.postgresql]}
+							github="https://github.com/cactusmod"
+							website="https://cactusmod.xyz"
+							images={[cactus0, cactus1, cactus2, cactus3, cactus4]}
+						/>
+						<Experience
+							title="SpaceBlocks - Minecraft Server Network"
+							content="SpaceBlocks is an upcoming CityBuild Network with many features and functions. It is focused on providing a unique and engaging experience for players who enjoy building and exploring in a city-themed environment."
+							time="Oct 2025 - Present"
+							state="In Progress"
+							tags={[tags.react, tags.typescript, tags.tailwindcss]}
+							github="#"
+							images={[demo, demo, demo, demo, demo, demo]}
+						/>
+						<Experience
+							title="Sedis - Simple Redis Client"
+							content="Sedis is a fast synchronous Redis caching for Java, enabling efficient shared values across sub-services and applications. It provides a simple API for common Redis operations, making it easy to integrate caching into any Java project."
+							time="Nov 2025 - Present"
+							state="In Development"
+							tags={[tags.java, tags.redis, tags.gson]}
+							github="https://github.com/leycm/sedis"
+							images={[sedis]}
+						/>
+						<Experience
+							title="Flux - Event Management System"
+							content="Flux is a lightweight synchronous event framework for efficient event handling written in Java. It provides a simple and flexible API for registering, unregistering, and dispatching events, making it easy to integrate into any Java application."
+							time="Oct 2024 - Nov 2025"
+							state="Stable"
+							tags={[tags.java, tags.git]}
+							github="https://github.com/leycm/flux"
+							images={[flux]}
+						/>
+						<Experience
+							title="Education in High School"
+							content="I'm currently graduating high school in Germany with a focus on computer science, mathematics and  physics. I've been passionate about programming and technology from a young age, which has driven me to pursue a deeper understanding of these subjects throughout my education."
+							time="2021 - 2028"
+							state="In Progress"
+							tags={[tags.java, tags.python, tags.git]}
+						/>
 						<TimelineEnd />
 					</ExperienceAndProjects>
 				</Section>
