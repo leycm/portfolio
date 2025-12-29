@@ -185,19 +185,10 @@ export default function Portfolio() {
 							content="Cactus Network is a Minecraft server network that offers a variety of game modes and features for players to enjoy. With a focus on community and player engagement, Cactus Network provides a fun and immersive experience for Minecraft enthusiasts."
 							time="Apr 2025 - Present"
 							state="In Progress"
-							tags={[tags.nextjs, tags.typescript, tags.postgresql]}
+							tags={[tags.java, tags.springboot, tags.postgresql, tags.redis, tags.docker]}
 							github="https://github.com/cactusmod"
 							website="https://cactusmod.xyz"
 							images={[cactus0, cactus1, cactus2, cactus3, cactus4]}
-						/>
-						<Experience
-							title="SpaceBlocks - Minecraft Server Network"
-							content="SpaceBlocks is an upcoming CityBuild Network with many features and functions. It is focused on providing a unique and engaging experience for players who enjoy building and exploring in a city-themed environment."
-							time="Oct 2025 - Present"
-							state="In Progress"
-							tags={[tags.react, tags.typescript, tags.tailwindcss]}
-							github="#"
-							images={[demo, demo, demo, demo, demo, demo]}
 						/>
 						<Experience
 							title="Sedis - Simple Redis Client"
