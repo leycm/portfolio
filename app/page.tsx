@@ -181,7 +181,7 @@ export default function Portfolio() {
 					<ExperienceAndProjects>
 						<TimelineStart />
 						<Experience
-							title="Cactus Network - A Minecraft Server Network"
+							title="Cactus Network - The Minecraft Network"
 							content="Cactus Network is a Minecraft server network that offers a variety of game modes and features for players to enjoy. With a focus on community and player engagement, Cactus Network provides a fun and immersive experience for Minecraft enthusiasts."
 							time="Apr 2025 - Present"
 							state="In Progress"

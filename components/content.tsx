@@ -8,12 +8,17 @@ export function Page({ children }: { children: React.ReactNode; }) {
 	);
 }
 
+import { Footer } from "@/components/footer";
+
 export function Content({ children }: { children: React.ReactNode; }) {
 	return (
-		<div className="w-full h-full overflow-y-auto">
-			<div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-				{children}
+		<div className="w-full h-full overflow-y-auto flex flex-col">
+			<div className="flex-grow">
+				<div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+					{children}
+				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }

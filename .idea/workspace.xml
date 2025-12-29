@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Update experience section with new projects and enhance tech descriptions; refactor tags for improved clarity">
+    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor Cactus Network tags and update workspace configuration for improved clarity and accuracy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/apple-touch-icon/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/apple-touch-icon/route.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/content.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sidebar-client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sidebar-client.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +123,7 @@
       <workItem from="1766658582486" duration="3640000" />
       <workItem from="1766693374751" duration="2972000" />
       <workItem from="1766750752607" duration="3973000" />
-      <workItem from="1767028834470" duration="13618000" />
+      <workItem from="1767028834470" duration="15030000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -193,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767044772151</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactor Cactus Network tags and update workspace configuration for improved clarity and accuracy">
+      <option name="closed" value="true" />
+      <created>1767044882603</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767044882603</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +231,8 @@
     <MESSAGE value="Update icons and dependencies; refactor TypeScript configuration for improved compatibility and performance" />
     <MESSAGE value="Update AboutMe component description and enhance tech usage terminology for clarity" />
     <MESSAGE value="Update experience section with new projects and enhance tech descriptions; refactor tags for improved clarity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update experience section with new projects and enhance tech descriptions; refactor tags for improved clarity" />
+    <MESSAGE value="Refactor Cactus Network tags and update workspace configuration for improved clarity and accuracy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor Cactus Network tags and update workspace configuration for improved clarity and accuracy" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
