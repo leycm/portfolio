@@ -57,7 +57,7 @@ export default function Portfolio() {
 					<ContentTitle>About Me</ContentTitle>
 					<AboutMe 
 					  name="Lennard"
-					  description="German Student with a passion for computer science, specializing in Java and Backend development. I'm deeply passionate about Object-Oriented Programming and currently pursuing my studies in Germany. When I'm not coding, you can find me exploring new technologies, contributing to open source, or sharing my knowledge with the community."
+					  description={`German Student with a passion for computer science, specializing in Java and Backend development with ${getYearsOfExperience} Years of Experience. I'm deeply passionate about Object-Oriented Programming and currently graduating in Germany.`}
 					  image={profile}
 					  socialLinks={[
 					    {

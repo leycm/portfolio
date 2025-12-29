@@ -7,9 +7,10 @@
     <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor AboutMe, Carousel, and Sidebar components for improved responsiveness and styling; enhance GitHub stats display for mobile and desktop views">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/content.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tech.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/tech.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/icons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/icons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -122,6 +124,7 @@
       <workItem from="1766658582486" duration="3640000" />
       <workItem from="1766693374751" duration="2972000" />
       <workItem from="1766750752607" duration="3973000" />
+      <workItem from="1767028834470" duration="1434000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -168,6 +171,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial project structure with core components and configuration files" />
