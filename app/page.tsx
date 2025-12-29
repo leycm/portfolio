@@ -57,7 +57,7 @@ export default function Portfolio() {
 					<ContentTitle>About Me</ContentTitle>
 					<AboutMe 
 					  name="Lennard"
-					  description={`German Student with a passion for computer science, specializing in Java and Backend development with ${getYearsOfExperience} Years of Experience. I'm deeply passionate about Object-Oriented Programming and currently graduating in Germany.`}
+					  description={`German Student with a passion for computer science, specializing in Java and Backend development with ${getYearsOfExperience()} Years of Experience. I'm deeply passionate about Object-Oriented Programming and interested in System architecture. I'm currently graduating in Germany.`}
 					  image={profile}
 					  socialLinks={[
 					    {
@@ -136,33 +136,33 @@ export default function Portfolio() {
 						}} />
 						<Tech tech={{
 							name: "Python",
-							description: "interpreted, high-level programming language known for its simplicity and versatility.",
-							usage: "Automation scripts, data processing", // TODO: improve
-							familiarity: "-",
+							description: "interpreted, high-level programming language.",
+							usage: "for automation scripts, data processing and testing things fast.", // TODO: improve
+							familiarity: "familiar with python thrue school and own scripts.",
 							color: "#3776AB",
 							icon: <FaPython />
 						}} />
 						<Tech tech={{
 							name: "Redis",
-							description: "in-memory data structure store, used as a database, cache, and message broker.",
-							usage: "Caching layer and real-time data processing",
+							description: "in-memory database, cache, and message broker.",
+							usage: "for caching layers and real-time data processing via pub/sub.",
 							familiarity: "Experience with Redis for caching and pub/sub",
 							color: "#DC382D",
 							icon: <SiRedis />
 						}} />
 						<Tech tech={{
 							name: "Docker",
-							description: "platform for developing, shipping, and running applications in containers.",
-							usage: "-",
-							familiarity: "-",
+							description: "platform for developing, shipping, and running applications.",
+							usage: "mostly for containerizing applications microservices.",
+							familiarity: "experienced with using Docker for development and deployment.",
 							color: "#2496ED",
 							icon: <FaDocker />
 						}} />
 						<Tech tech={{
 							name: "Git",
-							description: "distributed version control system for tracking changes in source code during software development.",
-							usage: "-",
-							familiarity: "-",
+							description: "distributed version control for tracking changes in source code.",
+							usage: " for version control and collaboration on software projects.",
+							familiarity: "proficient in Git for source code management.",
 							color: "#F05032",
 							icon: <FaGitAlt />
 						}} />
