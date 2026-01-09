@@ -3,12 +3,14 @@ import { ImageResponse } from "next/og";
 export const runtime = 'edge';
 
 export async function GET() {
-  const interSemiBold = await fetch(
-    new URL('../../../fonts/Inter-SemiBold.ttf', import.meta.url)
+  // Load the Inter-SemiBold font
+  /*const interSemiBold = await fetch(
+    new URL('../../../fonts/Inter-SemiBold.ttf', import.meta.url).toString()
   ).then((res) => res.arrayBuffer());
-  
-  const interSemiBold2 = interSemiBold; // Using the same font for both weights
 
+  // Use the same font for both weights since we only have one variant
+  const interRegular = interSemiBold;
+*/
   return new ImageResponse(
     (
       <div
@@ -45,9 +47,7 @@ export async function GET() {
               fontWeight: 'bold',
               margin: '0 0 0.5rem 0',
               lineHeight: 1.1
-            }}>
-              Hi, I'm Lennard
-            </h1>
+            }}>Hi, I&apos;m Lennard</h1>
             <p style={{
               fontSize: '24px',
               color: '#8B949E',
@@ -104,20 +104,6 @@ export async function GET() {
     {
       width: 1200,
       height: 630,
-      fonts: [
-        {
-          name: 'Inter',
-          data: interSemiBold,
-          weight: 600,  // SemiBold weight
-          style: 'normal',
-        },
-        {
-          name: 'Inter',
-          data: interSemiBold2,
-          weight: 600,  // Using the same weight for both since we only have one font file
-          style: 'normal',
-        },
-      ],
     }
   );
 }

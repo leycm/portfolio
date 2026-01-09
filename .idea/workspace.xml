@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor layout and route components for dynamic domain handling and improved presentation" />
+    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor font handling in route component for improved performance and consistency">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/og/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/og/route.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +124,7 @@
       <workItem from="1767028834470" duration="15179000" />
       <workItem from="1767379216853" duration="4170000" />
       <workItem from="1767444803990" duration="1284000" />
-      <workItem from="1767989456829" duration="1889000" />
+      <workItem from="1767989456829" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -234,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767991515564</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refactor font handling in route component for improved performance and consistency">
+      <option name="closed" value="true" />
+      <created>1767991702836</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1767991702836</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +277,8 @@
     <MESSAGE value="Add page.tsx to .gitignore to prevent tracking of generated files" />
     <MESSAGE value="Enhance layout metadata and add browser configuration for improved site presentation" />
     <MESSAGE value="Refactor layout and route components for dynamic domain handling and improved presentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor layout and route components for dynamic domain handling and improved presentation" />
+    <MESSAGE value="Refactor font handling in route component for improved performance and consistency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor font handling in route component for improved performance and consistency" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
