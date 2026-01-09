@@ -20,7 +20,7 @@ export async function GET() {
 			MozOsxFontSmoothing: "grayscale",
 			fontFamily: "JetBrains Mono",
 		}}>
-			<span>@y</span>
+			<span>@l</span>
 		</div>
 	), {
 		width: 144,

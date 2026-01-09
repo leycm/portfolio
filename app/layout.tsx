@@ -4,11 +4,21 @@ import { inter } from "@/lib/fonts";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-const title = "Hi i'am LeyCM";
+const title = "Hi i'am Ley";
 const description = "Software Engineer and Developer";
-const domain = "leycm.de";
-const siteUrl = `https://${domain}`;
 
+// Get the domain dynamically from the request headers
+const getDomain = (): string => {
+  // This will be replaced with the actual domain at request time
+  if (typeof window !== 'undefined') {
+    return window.location.hostname;
+  }
+  // Fallback for server-side rendering
+  return process.env.NEXT_PUBLIC_SITE_URL?.replace(/^https?:\/\//, '') || 'leycm.de';
+};
+
+const domain = getDomain();
+const siteUrl = `https://${domain}`;
 const fullTitle = `${domain} - ${title}`;
 
 export const metadata: Metadata = {
