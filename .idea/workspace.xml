@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor Cactus Network tags and update workspace configuration for improved clarity and accuracy">
+    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Add page.tsx to .gitignore to prevent tracking of generated files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/apple-touch-icon/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/apple-touch-icon/route.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/content.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sidebar-client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sidebar-client.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
       </set>
     </attachedChunks>
   </component>
@@ -123,7 +120,10 @@
       <workItem from="1766658582486" duration="3640000" />
       <workItem from="1766693374751" duration="2972000" />
       <workItem from="1766750752607" duration="3973000" />
-      <workItem from="1767028834470" duration="15030000" />
+      <workItem from="1767028834470" duration="15179000" />
+      <workItem from="1767379216853" duration="4170000" />
+      <workItem from="1767444803990" duration="1284000" />
+      <workItem from="1767989456829" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -205,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767044882603</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add footer component and update page structure for improved layout and clarity">
+      <option name="closed" value="true" />
+      <created>1767048721977</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767048721977</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add page.tsx to .gitignore to prevent tracking of generated files">
+      <option name="closed" value="true" />
+      <created>1767048733327</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767048733327</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +248,9 @@
     <MESSAGE value="Update AboutMe component description and enhance tech usage terminology for clarity" />
     <MESSAGE value="Update experience section with new projects and enhance tech descriptions; refactor tags for improved clarity" />
     <MESSAGE value="Refactor Cactus Network tags and update workspace configuration for improved clarity and accuracy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Cactus Network tags and update workspace configuration for improved clarity and accuracy" />
+    <MESSAGE value="Add footer component and update page structure for improved layout and clarity" />
+    <MESSAGE value="Add page.tsx to .gitignore to prevent tracking of generated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add page.tsx to .gitignore to prevent tracking of generated files" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
