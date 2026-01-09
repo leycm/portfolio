@@ -3,13 +3,11 @@ import { ImageResponse } from "next/og";
 export const runtime = 'edge';
 
 export async function GET() {
-  const interBold = await fetch(
-    new URL('../../../fonts/Inter-Bold.ttf', import.meta.url)
+  const interSemiBold = await fetch(
+    new URL('../../../fonts/Inter-SemiBold.ttf', import.meta.url)
   ).then((res) => res.arrayBuffer());
   
-  const interRegular = await fetch(
-    new URL('../../../fonts/Inter-Regular.ttf', import.meta.url)
-  ).then((res) => res.arrayBuffer());
+  const interSemiBold2 = interSemiBold; // Using the same font for both weights
 
   return new ImageResponse(
     (
@@ -109,14 +107,14 @@ export async function GET() {
       fonts: [
         {
           name: 'Inter',
-          data: interRegular,
-          weight: 400,
+          data: interSemiBold,
+          weight: 600,  // SemiBold weight
           style: 'normal',
         },
         {
           name: 'Inter',
-          data: interBold,
-          weight: 700,
+          data: interSemiBold2,
+          weight: 600,  // Using the same weight for both since we only have one font file
           style: 'normal',
         },
       ],
