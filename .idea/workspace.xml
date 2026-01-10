@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor layout component for improved metadata handling and SEO optimization">
+    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor layout and route components for improved image dimensions and viewport settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/og/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/og/route.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +125,7 @@
       <workItem from="1767444803990" duration="1284000" />
       <workItem from="1767989456829" duration="3187000" />
       <workItem from="1768040583108" duration="304000" />
-      <workItem from="1768044401373" duration="1595000" />
+      <workItem from="1768044401373" duration="1838000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -288,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768045775590</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Refactor layout and route components for improved image dimensions and viewport settings">
+      <option name="closed" value="true" />
+      <created>1768046016828</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1768046016828</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +331,8 @@
     <MESSAGE value="Refactor AboutMe component for improved image handling and layout structure" />
     <MESSAGE value="Enhance Dockerfile for Puppeteer by adding Chrome installation and necessary fonts" />
     <MESSAGE value="Refactor layout component for improved metadata handling and SEO optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor layout component for improved metadata handling and SEO optimization" />
+    <MESSAGE value="Refactor layout and route components for improved image dimensions and viewport settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor layout and route components for improved image dimensions and viewport settings" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -3,10 +3,7 @@ import puppeteer from "puppeteer";
 
 export const runtime = "nodejs";
 
-export async function GET(req: Request) {
-  const { searchParams } = new URL(req.url);
-
-  const id = searchParams.get("id") ?? "default";
+export async function GET() {
 
   const browser = await puppeteer.launch({
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
@@ -15,8 +12,8 @@ export async function GET(req: Request) {
   const page = await browser.newPage();
 
   await page.setViewport({
-    width: 800,
-    height: 500,
+    width: 600,
+    height: 400,
     deviceScaleFactor: 1,
   });
 
@@ -58,8 +55,8 @@ export async function GET(req: Request) {
 
       document.body.style.margin = '0';
       document.body.style.padding = '0';
-      document.body.style.width = '800px';
-      document.body.style.height = '500px';
+      document.body.style.width = '600px';
+      document.body.style.height = '400px';
       document.body.style.overflow = 'hidden';
       document.body.style.display = 'flex';
       document.body.style.alignItems = 'center';

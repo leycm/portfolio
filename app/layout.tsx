@@ -31,9 +31,7 @@ export const metadata: Metadata = {
     'Software Engineer', 
     'Developer', 
     'Portfolio', 
-    'Web Development',
-    'Full Stack Developer',
-    'Frontend Developer',
+    'Java Development',
     'Backend Developer',
     'React',
     'Next.js',
@@ -105,8 +103,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: `${siteUrl}/api/og`,
-        width: 800,
-        height: 500,
+        width: 600,
+        height: 400,
         alt: fullTitle,
         type: 'image/png',
       },
@@ -119,8 +117,8 @@ export const metadata: Metadata = {
     description: description,
     images: [{
       url: `${siteUrl}/api/og`,
-      width: 800,
-      height: 500,
+      width: 600,
+      height: 400,
       alt: fullTitle,
     }],
     creator: '@leycm',
@@ -128,8 +126,8 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: 'YOUR_GOOGLE_SITE_VERIFICATION',
-    yandex: 'YOUR_YANDEX_VERIFICATION',
+    //google: 'YOUR_GOOGLE_SITE_VERIFICATION',
+    //yandex: 'YOUR_YANDEX_VERIFICATION',
   },
 
 	other: {
