@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor route component to utilize AboutMe for improved presentation and maintainability">
+    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Enhance Dockerfile for Puppeteer by adding Chrome installation and necessary fonts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
@@ -125,6 +125,7 @@
       <workItem from="1767444803990" duration="1284000" />
       <workItem from="1767989456829" duration="3187000" />
       <workItem from="1768040583108" duration="304000" />
+      <workItem from="1768044401373" duration="1369000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -262,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768040683051</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Refactor AboutMe component for improved image handling and layout structure">
+      <option name="closed" value="true" />
+      <created>1768044443593</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1768044443593</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Enhance Dockerfile for Puppeteer by adding Chrome installation and necessary fonts">
+      <option name="closed" value="true" />
+      <created>1768045111561</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1768045111561</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +312,9 @@
     <MESSAGE value="Refactor layout and route components for dynamic domain handling and improved presentation" />
     <MESSAGE value="Refactor font handling in route component for improved performance and consistency" />
     <MESSAGE value="Refactor route component to utilize AboutMe for improved presentation and maintainability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor route component to utilize AboutMe for improved presentation and maintainability" />
+    <MESSAGE value="Refactor AboutMe component for improved image handling and layout structure" />
+    <MESSAGE value="Enhance Dockerfile for Puppeteer by adding Chrome installation and necessary fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance Dockerfile for Puppeteer by adding Chrome installation and necessary fonts" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
