@@ -105,8 +105,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: `${siteUrl}/api/og`,
-        width: 1200,
-        height: 630,
+        width: 800,
+        height: 500,
         alt: fullTitle,
         type: 'image/png',
       },
@@ -119,8 +119,8 @@ export const metadata: Metadata = {
     description: description,
     images: [{
       url: `${siteUrl}/api/og`,
-      width: 1200,
-      height: 630,
+      width: 800,
+      height: 500,
       alt: fullTitle,
     }],
     creator: '@leycm',
