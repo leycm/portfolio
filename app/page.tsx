@@ -10,6 +10,7 @@ import { tags } from "./tags";
 import { Email } from "@/components/icons";
 import Quote from "@/components/quote";
 import { AboutMe } from "@/components/about";
+import { FaBluesky } from "react-icons/fa6";
 
 import demo from "@/images/demo.png";
 import flux from "@/images/flux.png";
@@ -20,8 +21,7 @@ import cactus2 from "@/images/cactus/cactus6.png";
 import cactus3 from "@/images/cactus/cactus7.png";
 import cactus4 from "@/images/cactus/cactus8.png";
 
-import profile from "@/images/profile.png";
-import { FaBluesky } from "react-icons/fa6";
+const profile = "/images/profile.png";
 
 export default function Portfolio() {
 	return (

@@ -14,6 +14,7 @@
 		"embla-carousel-react": "^8.3.0",
 		"lucide-react": "^0.562.0",
 		"next": "^16.1.1",
+		"puppeteer": "^24.34.0",
 		"react": "^19.2.3",
 		"react-dom": "^19.2.3",
 		"react-icons": "^5.5.0",

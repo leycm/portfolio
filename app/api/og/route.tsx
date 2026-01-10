@@ -1,86 +1,112 @@
-import { ImageResponse } from "next/og";
-import { AboutMe } from "@/components/about";
-import {FaLinkedin, FaStackOverflow, FaGithub, FaDiscord} from "react-icons/fa";
-import { FaBluesky } from "react-icons/fa6";
-import { FiMail as Email } from "react-icons/fi";
+import { NextResponse } from "next/server";
+import puppeteer from "puppeteer";
 
-import profile from "@/images/profile.png";
-import {getYearsOfExperience} from "@/lib/age";
+export const runtime = "nodejs";
 
-export const runtime = 'edge';
+export async function GET(req: Request) {
+  const { searchParams } = new URL(req.url);
 
-export async function GET() {
-  const interSemiBold = await fetch(
-    new URL('../../../fonts/Inter-SemiBold.ttf', import.meta.url).toString()
-  ).then((res) => res.arrayBuffer());
+  const id = searchParams.get("id") ?? "default";
 
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
 
-  const interRegular = interSemiBold;
+  const page = await browser.newPage();
 
+  await page.setViewport({
+    width: 1200,
+    height: 630,
+    deviceScaleFactor: 1,
+  });
 
-  return new ImageResponse(
-    (
-		<AboutMe
-			  name="Lennard"
-			  description={`German Student with a passion for computer science, specializing in Java and Backend development with ${getYearsOfExperience()} Years of Experience. I'm deeply passionate about Object-Oriented Programming and interested in System architecture. I'm currently graduating in Germany.`}
-			  image={profile}
-			  socialLinks={[
-				{
-				  name: 'GitHub',
-				  url: 'https://github.com/leycm',
-				  icon: <FaGithub size={16} />,
-				  username: 'leycm'
-				},
-				{
-				  name: 'LinkedIn',
-				  url: 'https://linkedin.com/in/leycm',
-				  icon: <FaLinkedin size={16} />,
-				  username: 'in/leycm'
-				},
-				{
-				  name: 'Twitter',
-				  url: 'https://bsky.app/@leycm',
-				  icon: <FaBluesky size={16} />,
-				  username: '@leycm'
-				},
-				{
-				  name: 'Email',
-				  url: 'mailto:leycm@proton.me',
-				  icon: <Email size={16} />,
-				  username: 'leycm@proton.me'
-				},
-				{
-				  name: 'Stack Overflow',
-				  url: 'https://stackoverflow.com/users/30135628',
-				  icon: <FaStackOverflow size={16} />,
-				  username: 'leycm'
-				},
-				{
-				  name: 'Discord',
-				  url: 'https://discordapp.com/users/1063519999886622801',
-				  icon: <FaDiscord size={16} />,
-				  username: 'leycm'
-				}
-		  ]}
-		/>
-    ),
-    {
-      width: 1200,
-      height: 630,
-      fonts: [
-        {
-          name: 'Inter',
-          data: interSemiBold,
-          style: 'normal',
-          weight: 600, // SemiBold
-        },
-        {
-          name: 'Inter',
-          data: interRegular,
-          style: 'normal',
-          weight: 400, // Regular
-        },
-      ],
+  const baseUrl = process.env.VERCEL_URL 
+    ? `https://${process.env.VERCEL_URL}` 
+    : 'http://localhost:3000';
+
+  await page.goto(`${baseUrl}`, {
+    waitUntil: ["domcontentloaded", "networkidle0"],
+    timeout: 30000
+  });
+
+  try {
+    await page.waitForSelector('#og-container', { 
+      visible: true,
+      timeout: 10000
+    });
+    
+    await page.evaluateHandle('document.fonts.ready');
+    
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    
+    const containerContent = await page.$eval('#og-container', el => el.textContent || '');
+    if (!containerContent.trim()) {
+      throw new Error('OG container is empty');
     }
-  );
+    
+    await page.evaluate(() => {
+      const target = document.querySelector('#og-container');
+      if (!target) throw new Error('OG container not found');
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'max-w-5xl mx-4 sm:ml-4 mb-4 sm:mb-4 mt-4 sm:mt-4 py-4 px-4';
+      
+      wrapper.appendChild(target.cloneNode(true));
+      
+      document.body.innerHTML = '';
+      document.body.appendChild(wrapper);
+
+      document.body.style.margin = '0';
+      document.body.style.padding = '0';
+      document.body.style.width = '800px';
+      document.body.style.height = '500px';
+      document.body.style.overflow = 'hidden';
+      document.body.style.display = 'flex';
+      document.body.style.alignItems = 'center';
+      document.body.style.justifyContent = 'center';
+
+	  document.body.style.margin = '50px';
+      document.body.style.padding = '0';
+      
+      // Style the wrapper to take full container space
+      wrapper.style.width = '100%';
+      wrapper.style.height = '100%';
+      wrapper.style.margin = '0';
+      wrapper.style.padding = '0';
+    });
+    
+    await new Promise(resolve => setTimeout(resolve, 500));
+  } catch (error) {
+    console.error('Error during page processing:', error);
+    throw error;
+  }
+
+ /* const htmlContent = await page.content();
+  
+  await browser.close();
+
+  return new NextResponse(htmlContent, {
+    status: 200,
+    headers: {
+      'Content-Type': 'text/html',
+      'Cache-Control': 'no-cache',
+      'Access-Control-Allow-Origin': '*',
+    },
+  });*/
+
+  const screenshot = await page.screenshot({
+    type: "png",
+  });
+
+  await browser.close();
+
+  return new NextResponse(screenshot as unknown as Blob, {
+    status: 200,
+    headers: {
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=31536000, immutable',
+      'Access-Control-Allow-Origin': '*',
+    },
+  });
+
 }

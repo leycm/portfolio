@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor font handling in route component for improved performance and consistency">
+    <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor route component to utilize AboutMe for improved presentation and maintainability">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/og/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/og/route.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,7 @@
       <workItem from="1767379216853" duration="4170000" />
       <workItem from="1767444803990" duration="1284000" />
       <workItem from="1767989456829" duration="3187000" />
-      <workItem from="1768040583108" duration="30000" />
+      <workItem from="1768040583108" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -254,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767992608133</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refactor route component to utilize AboutMe for improved presentation and maintainability">
+      <option name="closed" value="true" />
+      <created>1768040683051</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1768040683051</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +294,8 @@
     <MESSAGE value="Enhance layout metadata and add browser configuration for improved site presentation" />
     <MESSAGE value="Refactor layout and route components for dynamic domain handling and improved presentation" />
     <MESSAGE value="Refactor font handling in route component for improved performance and consistency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor font handling in route component for improved performance and consistency" />
+    <MESSAGE value="Refactor route component to utilize AboutMe for improved presentation and maintainability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor route component to utilize AboutMe for improved presentation and maintainability" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
