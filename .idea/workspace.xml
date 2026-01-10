@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e846318-1535-402e-ac9d-ce14a02ab56b" name="Changes" comment="Refactor font handling in route component for improved performance and consistency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/og/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/og/route.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +123,8 @@
       <workItem from="1767028834470" duration="15179000" />
       <workItem from="1767379216853" duration="4170000" />
       <workItem from="1767444803990" duration="1284000" />
-      <workItem from="1767989456829" duration="2964000" />
+      <workItem from="1767989456829" duration="3187000" />
+      <workItem from="1768040583108" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure with core components and configuration files">
       <option name="closed" value="true" />
@@ -246,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767991702836</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Refactor font handling in route component for improved performance and consistency">
+      <option name="closed" value="true" />
+      <created>1767992608133</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1767992608133</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
